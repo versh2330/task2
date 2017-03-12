@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12617" started-at="2017-03-12T17:27:24Z" finished-at="2017-03-12T17:27:37Z">
+    <groups>
+      <group name="login">
+        <method signature="LoginTest.testLogin()[pri:0, instance:LoginTest@6615435c]" name="testLogin" class="LoginTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Login test" duration-ms="12617" started-at="2017-03-12T17:27:24Z" finished-at="2017-03-12T17:27:37Z">
+      <class name="LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginTest@6615435c]" name="setUp" is-config="true" duration-ms="3514" started-at="2017-03-12T20:27:24Z" finished-at="2017-03-12T20:27:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a.vershok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1233456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://webmail.itransition.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:LoginTest@6615435c]" name="testLogin" duration-ms="8284" started-at="2017-03-12T20:27:28Z" finished-at="2017-03-12T20:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoginTest@6615435c]" name="tearDown" is-config="true" duration-ms="794" started-at="2017-03-12T20:27:36Z" finished-at="2017-03-12T20:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginTest -->
+    </test> <!-- Login test -->
+  </suite> <!-- Suite -->
+</testng-results>

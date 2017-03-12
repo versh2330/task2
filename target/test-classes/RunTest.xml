@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1" >
+    <!-- Параметр для ВСЕХ тестов в сьюьте -->
+
+    <test name = "Login test">
+        <!-- Параметр для ДАННОГО теста -->
+        <parameter name="name" value="a.vershok"/>
+        <parameter name="pass" value="1233456"/>
+        <parameter name="url" value="https://webmail.itransition.com"/>
+
+        <groups>
+            <run>
+                <include name="login"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="LoginTest"/>
+
+
+        </classes>
+    </test>
+    <!--<test name = "Working pen test">-->
+        <!--<parameter name="inkContainerValue" value="10"/>-->
+        <!--<parameter name="sizeLetter" value="2.0"/>-->
+        <!--<parameter name="color" value="BLUE"/>-->
+        <!--<parameter name="inputString" value="test"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="workingPen"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="PenTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "Other Tests">-->
+        <!--<parameter name="inkContainerValue" value="2"/>-->
+        <!--<parameter name="sizeLetter" value="1.0"/>-->
+        <!--<parameter name="color" value="RED"/>-->
+        <!--<parameter name="inputString" value="test"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="other"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="PenTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>
