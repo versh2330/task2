@@ -50,9 +50,9 @@ public class LoginTest {
     public void testLogin() throws Exception {
         driver.get(url);
         driver.findElement(By.id("username")).clear();
-        driver.findElement(By.id("username")).sendKeys("a.vershok");
+        driver.findElement(By.id("username")).sendKeys(name);
         driver.findElement(By.id("password")).clear();
-        driver.findElement(By.id("password")).sendKeys("123456");
+        driver.findElement(By.id("password")).sendKeys(pass);
         driver.findElement(By.id("SubmitCreds")).click();
         if(isAlertPresent()){ closeAlertAndGetItsText();}
 
